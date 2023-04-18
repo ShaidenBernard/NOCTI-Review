@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+html {
+    background-image: url(https://live.staticflickr.com/7213/6887025506_38362b2f59_b.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    margin: 200px 0;
+    font-family: 'Rubik Pixels', cursive;
+    transform: rotate(10deg);
+    color: white;
+    text-shadow: 10px 10px 10px gray;
+}
+
+nav {
+    background: linear-gradient(gray, black);
+    padding-bottom: 100%;
+    border: 20px solid black;
+    margin-top: 30%;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0 auto;
+    padding: 5%;
+    text-align: center;
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    list-style-type: none;
+    border: 5px solid white;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    margin: 50px;
+}
+
+nav a:hover {
+    box-shadow: 10px 10px 10px white;
+}
