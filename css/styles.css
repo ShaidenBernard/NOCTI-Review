@@ -12,6 +12,13 @@ html {
     background-position: center;
 }
 
+#cover {
+    margin: 2%;
+    padding: 1%;
+    background-color: #00000095;
+    border-radius: 10px;
+}
+
 header blockquote {
     display: block;
     max-width: 1050px;
@@ -62,11 +69,76 @@ nav a:hover {
     box-shadow: 10px 10px 10px black;
 }
 
+label {
+    font-size: 50px;
+    color: white;
+    margin-left: 2%;
+}
+
+#lname, #fname, #phone, #email {
+    display: block;
+    margin: 1% 0 10% 2%;
+    font-size: 30px;
+}
+
+#submit {
+    margin-left: 40%;
+    padding: 2% 4%;
+    border-radius: 10px;
+}
+
+#reset {
+    margin-left: 5%;
+    padding: 2% 4%;
+    border-radius: 10px;
+}
+
 h1 {
     padding: 1%;
     font-size: 2.5em;
     text-align: left;
     color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 10px solid black;
+    border-radius: 10px;
+    margin: 1%;
+}
+
+.grid-item1 {
+    color: white;
+    background-color: #1768b3dc;
+    padding: 10%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.grid-item2 {
+    color: white;
+    background-color: #0F4273dc;
+    padding: 10%;
+    margin-left: 1%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.grid-item3 {
+    color: white;
+    background-color: #0a2c4ddc;
+    padding: 10%;
+    margin-left: 1%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.grid-container button {
+    padding: 1%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 
 article {   
