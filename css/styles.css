@@ -100,9 +100,19 @@ h1 {
     color: white;
 }
 
+h2 {
+    color: white;
+    margin-left: 15%;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     border: 10px solid black;
     border-radius: 10px;
     margin: 1%;
